@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <template id="custom_sitemap" inherit_id="website.sitemap_xml">
+            <xpath expr="//urlset" position="inside">
+                <url>
+                    <loc>https://getdte.com/</loc>
+                    <lastmod>2023-28-06</lastmod>
+                    <priority>1.00</priority>
+                    <data>
+                        <title>GET DTE | Facturacion electronic</title>
+                        <description>La facturación electrónica ahora es más fácil que nunca. 
+                        Crea facturas electrónicas y envíalas a tus clientes desde 
+                        nuestro portal getdte.com</description>
+                    </data>
+                </url>
+            </xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="website" id="site">
+            <field name="name">Demo Website</field>
+            <field name="logo" type="base64" file="demo_website/static/src/img/home/get_dte_blanco.png" />
+            <field name="default_lang_id" ref="base.lang_es" />
+        </record>
+    </data>
+</odoo>

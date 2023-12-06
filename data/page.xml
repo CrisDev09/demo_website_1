@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <record model="website.page" id="home_page">
+      <field name="website_id" ref="demo_website.site" />
+      <field name="name">Inicio_demo</field>
+      <field name="url">/</field>
+      <field name="view_id" ref="demo_website.home" />
+      <field name="is_published" eval="True" />
+    </record>
+  </data>
+</odoo>
