@@ -3,38 +3,391 @@
     <template id="home">
         <t t-call="website.layout">
             <div id="wrap" class="oe_structure oe_empty">
-                <section class="home d-flex align-items-center " id="hero" data-scroll-index="0">
+                <section class="home d-flex align-items-center" id="hero">
                     <div class="container">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center row-home">
                             <div class="col-sm-12 col-md-5">
                                 <div class="home-text">
                                     <h1>
                                         Easiily Create Pixar Style 3D Videos
                                     </h1>
-                                    <p>Build your own 3D characters like Pixar, animate in just a click &#38;make 
-                                    stunning videos.  (No tech or design skills needed).
+                                    <p>Build your own 3D characters like Pixar, animate in just a click &#38;make
+                                        stunning videos. (No tech or design skills needed).
                                     </p>
                                 </div>
                                 <div class="home-btn">
-                                    <!-- <t t-call="treming_dte_website.contact_href_tmp"/> -->
                                     <a href="#" class="btn btn-1">Buy CreateStudio Now</a>
                                 </div>
                             </div>
                             <div class="col-md-7">
-                                <div class="bg-cont-img">
-                                    <img id="img_odoo" src="/demo_website/static/src/img/home/veido-home.jpg" alt="image video home" />
+                                <div class="bg-cont-video">
+                                    <video controls id="wb-video" class="wb-video video-js vjs-16-9">
+                                        <source src="./video/video-1.mp4" type="video/mp4">
+                                        </source>
+                                    </video>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="secction-1 d-flex align-items-center " id="hero" data-scroll-index="0">
+                <section class="secction-1 d-flex align-items-center">
                     <div class="container">
                         <div class="box-content">
                             <div class="row align-items-center justify-content-center">
-                                <div class="section-1-btn">
-                                    <!-- <t t-call="treming_dte_website.contact_href_tmp"/> -->
-                                    <a href="#" class="btn btn-1">Buy CreateStudio Now</a>
+                                <div class="section-badge">
+                                    <div class="badge-bg">
+                                        <div href="#" class=" badge-wb">Buy CreateStudio Now</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center mt-4">
+                                <div class="section-title">
+                                    <h2>Create Custom 3D Characters</h2>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center mt-4">
+                                <div class="col-md-6">
+                                    <div class="char-video">
+                                        <video autoplay muted loop class="wb-video">
+                                            <source src="./video/video-2.mp4" type="video/mp4">
+                                            </source>
+                                        </video>
+                                    </div>
+                                    <div class="row align-items-center justify-content-center mt-2 cont-text">
+                                        <h5>Character Creator</h5>
+                                        <p class="text-section">Forget complex rigging & 3d modelling, with CreateStudio all it
+                                            takes is a few clicks!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="char-video">
+                                        <video autoplay muted loop class="wb-video">
+                                            <source src="./video/video-2.mp4" type="video/mp4">
+                                            </source>
+                                        </video>
+                                    </div>
+                                    <div class="row align-items-center justify-content-center mt-2 cont-text">
+                                        <h5>Character Creator</h5>
+                                        <p class="text-section">Forget complex rigging & 3d modelling, with CreateStudio all it
+                                            takes is a few clicks!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center mt-5">
+                                <div class="col-md-6">
+                                    <div class="char-video">
+                                        <video autoplay muted loop class="wb-video">
+                                            <source src="./video/video-2.mp4" type="video/mp4">
+                                            </source>
+                                        </video>
+                                    </div>
+                                    <div class="row align-items-center justify-content-center mt-2 cont-text">
+                                        <h5>Character Creator</h5>
+                                        <p class="text-section">Forget complex rigging & 3d modelling, with CreateStudio all it
+                                            takes is a few clicks!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="char-video">
+                                        <video autoplay muted loop class="wb-video">
+                                            <source src="./video/video-2.mp4" type="video/mp4">
+                                            </source>
+                                        </video>
+                                    </div>
+                                    <div class="row align-items-center justify-content-center mt-2 cont-text">
+                                        <h5>Character Creator</h5>
+                                        <p class="text-section">Forget complex rigging & 3d modelling, with CreateStudio all it
+                                            takes is a few clicks!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ft-box-content mt-4">
+                                <div class="row align-items-center justify-content-center mt-2 ft-text">
+                                    <div class="col-md-8">
+                                        <h5>Character Creator</h5>
+                                        <p class="text-section">Forget complex rigging & 3d modelling, with CreateStudio all it
+                                            takes is a few clicks!</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="section-btn">
+                                            <a href="#" class="btn btn-ft">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="anitmate d-flex align-items-center mt-3 section-padding">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="am-text">
+                                    <h2>
+                                        No Complex Animating, Just Point & Click!
+                                    </h2>
+                                    <p>
+                                        If you can drag & drop, point & click, you too can make
+                                        amazing video content! Loaded with powerful
+                                        features, yet designed for ease of use.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="img-cont">
+                                    <img src="./img/img-amt.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="bx-org d-flex align-items-center mt-3 section-padding">
+                    <div class="container">
+                        <div class="box-orange">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="bxo-text">
+                                        <h2>Ready to make eye catching
+                                            videos like the pros?</h2>
+                                        <div class="home-btn">
+                                            <a href="#" class="btn btn-1">Buy CreateStudio Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bxo-img">
+                                        <img src="./img/img-man.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-esasy d-flex align-items-center mt-3 section-padding">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-9">
+                                <h2 class="text-center">Welcome to your new video studio!
+                                    Yeah, you can also easily create…</h2>
+            
+                            </div>
+                        </div>
+                        <div class="stn-esy">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-6">
+                                    <h3>Scroll Stopping</h3>
+                                    <h3>Visual Effects</h3>
+                                    <p>Want to drive traffic from social media? Create scroll stopping video ads &
+                                        social media content with seriously eye-popping effects!</p>
+                                    <div class="section-btn">
+                                        <a href="#" class="btn btn-2">Get instant access now</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="char-video">
+                                        <video autoplay muted loop class="wb-video">
+                                            <source src="./video/video-2.mp4" type="video/mp4">
+                                            </source>
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stn-esy">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-6">
+                                    <div class="char-video">
+                                        <video autoplay muted loop class="wb-video">
+                                            <source src="./video/video-1.mp4" type="video/mp4">
+                                            </source>
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Build Highly Engaging</h3>
+                                    <h3>Explainer Videos</h3>
+                                    <p>Want to drive traffic from social media? Create scroll stopping video ads &
+                                        social media content with seriously eye-popping effects!</p>
+                                    <div class="section-btn">
+                                        <a href="#" class="btn btn-2">Get instant access now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stn-esy">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-6">
+                                    <h3>Scroll Stopping</h3>
+                                    <h3>Visual Effects</h3>
+                                    <p>Want to drive traffic from social media? Create scroll stopping video ads &
+                                        social media content with seriously eye-popping effects!</p>
+                                    <div class="section-btn">
+                                        <a href="#" class="btn btn-2">Get instant access now</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="char-video">
+                                        <video autoplay muted loop class="wb-video">
+                                            <source src="./video/video-2.mp4" type="video/mp4">
+                                            </source>
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stn-esy">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-6">
+                                    <div class="char-video">
+                                        <video autoplay muted loop class="wb-video">
+                                            <source src="./video/video-1.mp4" type="video/mp4">
+                                            </source>
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Build Highly Engaging</h3>
+                                    <h3>Explainer Videos</h3>
+                                    <p>Want to drive traffic from social media? Create scroll stopping video ads &
+                                        social media content with seriously eye-popping effects!</p>
+                                    <div class="section-btn">
+                                        <a href="#" class="btn btn-2">Get instant access now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-bg-black d-flex align-items-center mt-3 section-padding">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-9">
+                                <h2 class="text-center">Pro features, for motion design</h2>
+            
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center margin-top">
+                            <div class="col-md-6">
+                               <div class="img-cont">
+                                <img src="./img/img-char-1.webp" alt="">
+                               </div>
+                               <h4>Keyframes & Presets</h4>
+                               <p>Create custom keyframes or make it even easier 
+                                with our 1 click motion presets!</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="img-cont">
+                                    <img src="./img/img-char-2.webp" alt="">
+                                </div>
+                                <h4>Keyframes & Presets</h4>
+                                <p>Create custom keyframes or make it even easier 
+                                 with our 1 click motion presets!</p>
+                             </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center margin-top">
+                            <div class="col-md-6">
+                               <div class="img-cont">
+                                <img src="./img/img-char-3.webp" alt="">
+                               </div>
+                               <h4>Keyframes & Presets</h4>
+                               <p>Create custom keyframes or make it even easier 
+                                with our 1 click motion presets!</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="img-cont">
+                                    <img src="./img/img-char-4.webp" alt="">
+                                </div>
+                                <h4>Keyframes & Presets</h4>
+                                <p>Create custom keyframes or make it even easier 
+                                 with our 1 click motion presets!</p>
+                             </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center margin-top">
+                            <div class="col-md-6">
+                               <div class="img-cont">
+                                <img src="./img/img-char-5.webp" alt="">
+                               </div>
+                               <h4>Keyframes & Presets</h4>
+                               <p>Create custom keyframes or make it even easier 
+                                with our 1 click motion presets!</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="img-cont">
+                                    <img src="./img/img-char-6.webp" alt="">
+                                </div>
+                                <h4>Keyframes & Presets</h4>
+                                <p>Create custom keyframes or make it even easier 
+                                 with our 1 click motion presets!</p>
+                             </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="section-poe d-flex align-items-center mt-3 section-padding">
+                    <div class="container">
+            
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-9">
+                                    <h2 class="text-center">Loaded with powerful editing options</h2>
+                                </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-md-7">
+                                <div class="box-poe box-gray">
+                                    <h3>Compositions</h3>
+                                    <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
+                                    <div class="img-cont">
+                                        <img src="./img/img-grid-1.webp" alt="">
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="box-poe box-lightblue">
+                                    <h3>Blend Modes & Track Mattes</h3>
+                                    <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
+                                    <div class="img-cont">
+                                        <img src="./img/img-grid.webp" alt="">
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-5">
+                                <div class="box-poe box-lightblue-g">
+                                    <h3>Blend Modes & Track Mattes</h3>
+                                    <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
+                                    <div class="img-cont">
+                                        <img src="./img/img-grid-3.webp" alt="">
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="box-poe box-purple">
+                                    <h3>Compositions</h3>
+                                    <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
+                                    <div class="img-cont">
+                                        <img src="./img/img-grid-4.webp" alt="">
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-7">
+                                <div class="box-poe box-gray">
+                                    <h3>Compositions</h3>
+                                    <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
+                                    <div class="img-cont">
+                                        <img src="./img/img-grid.webp" alt="">
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="box-poe box-orange">
+                                    <h3>Blend Modes & Track Mattes</h3>
+                                    <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
+                                    <div class="img-cont">
+                                        <img src="./img/img-grid-5.webp" alt="">
+                                       </div>
                                 </div>
                             </div>
                         </div>
