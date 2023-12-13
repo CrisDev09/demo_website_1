@@ -21,8 +21,8 @@
                             </div>
                             <div class="col-md-7">
                                 <div class="bg-cont-video">
-                                    <video id="wb-video" class="wb-video video-js vjs-16-9">
-                                        <source controls src="/demo_website/static/src/video/video-1.mp4" type="video/mp4" />
+                                    <video id="wb-video" class="wb-video video-js vjs-16-9" controls>
+                                        <source src="/demo_website/static/src/video/video-1.mp4" type="video/mp4" />
                                     </video>
                                 </div>
                             </div>
