@@ -26,10 +26,11 @@
     ],
     "assets": {
         "web.assets_frontend": [
-            "treming_dte_website/static/src/js/popper.min.js",
-            "treming_dte_website/static/src/js/owl.carousel.min.js",
-            "treming_dte_website/static/src/js/scrollIt.min.js",
-            "treming_dte_website/static/src/js/main.js",
+            "demo_website/static/src/js/popper.min.js",
+            "demo_website/static/src/js/owl.carousel.min.js",
+            "demo_website/static/src/js/scrollIt.min.js",
+            "demo_website/static/src/js/main.js",
+            "demo_website/static/src/js/video.min.js"
         ]
     },
 }
