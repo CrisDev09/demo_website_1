@@ -22,7 +22,7 @@
                             <div class="col-md-7">
                                 <div class="bg-cont-video">
                                     <video id="wb-video" class="wb-video video-js vjs-16-9">
-                                        <img controls src="/demo_website/static/src/video/video-1.mp4" type="video/mp4" />
+                                        <source src="/demo_website/static/src/video/video-1.mp4" type="video/mp4" />
                                     </video>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@
                             <div class="row align-items-center justify-content-center mt-4">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video autoplay muted loop class="wb-video">
+                                        <video muted loop class="wb-video">
                                             <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
                                             </source>
                                         </video>
@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video autoplay muted loop class="wb-video">
+                                        <video muted loop class="wb-video">
                                             <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
                                             </source>
                                         </video>
@@ -75,7 +75,7 @@
                             <div class="row align-items-center justify-content-center mt-5">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video autoplay muted loop class="wb-video">
+                                        <video muted loop class="wb-video">
                                             <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
                                             </source>
                                         </video>
@@ -88,7 +88,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video autoplay muted loop class="wb-video">
+                                        <video muted loop class="wb-video">
                                             <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
                                             </source>
                                         </video>
@@ -184,7 +184,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video autoplay muted loop class="wb-video">
+                                        <video muted loop class="wb-video">
                                             <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
                                             </source>
                                         </video>
@@ -196,7 +196,7 @@
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video autoplay muted loop class="wb-video">
+                                        <video muted loop class="wb-video">
                                             <source src="/demo_website/static/src/video/video-1.mp4" type="video/mp4">
                                             </source>
                                         </video>
@@ -226,7 +226,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video autoplay muted loop class="wb-video">
+                                        <video muted loop class="wb-video">
                                             <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
                                             </source>
                                         </video>
@@ -238,7 +238,7 @@
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video autoplay muted loop class="wb-video">
+                                        <video muted loop class="wb-video">
                                             <source src="/demo_website/static/src/video/video-1.mp4" type="video/mp4">
                                             </source>
                                         </video>
