@@ -151,7 +151,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="bxo-img">
+                                    <div class="bxo-img upward">
                                         <img src="/demo_website_1/static/src/img/home/img-man.webp" alt="" />
                                     </div>
                                 </div>
@@ -163,7 +163,7 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-md-9">
-                                <h2 class="text-center">Welcome to your new video studio!
+                                <h2 class="text-center upward">Welcome to your new video studio!
                                     Yeah, you can also easily create…</h2>
             
                             </div>
@@ -180,7 +180,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="char-video">
+                                    <div class="char-video upward">
                                          <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
                                           <source src="/demo_website_1/static/src/video/video-2.mp4" type="video/mp4" />
                                         </video>
@@ -192,7 +192,7 @@
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                         <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                         <video class="wb-video upward" autoplay="autoplay" muted="muted" loop="loop">
                                           <source src="/demo_website_1/static/src/video/video-1.mp4" type="video/mp4" />
                                         </video>
                                     </div>
@@ -221,7 +221,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                        <video class="wb-video upward" autoplay="autoplay" muted="muted" loop="loop">
                                           <source src="/demo_website_1/static/src/video/video-2.mp4" type="video/mp4" />
                                         </video>
                                     </div>
@@ -232,7 +232,7 @@
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                       <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                       <video class="wb-video upward" autoplay="autoplay" muted="muted" loop="loop">
                                           <source src="/demo_website_1/static/src/video/video-1.mp4" type="video/mp4" />
                                         </video>
                                     </div>
@@ -254,11 +254,11 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-md-9">
-                                <h2 class="text-center">Pro features, for motion design</h2>
+                                <h2 class="text-center upward">Pro features, for motion design</h2>
             
                             </div>
                         </div>
-                        <div class="row justify-content-center align-items-center margin-top">
+                        <div class="row justify-content-center align-items-center margin-top upward">
                             <div class="col-md-6">
                                <div class="img-cont">
                                 <img src="/demo_website_1/static/src/img/home/img-char-1.webp" alt="" />
@@ -276,7 +276,7 @@
                                  with our 1 click motion presets!</p>
                              </div>
                         </div>
-                        <div class="row justify-content-center align-items-center margin-top">
+                        <div class="row justify-content-center align-items-center margin-top upward">
                             <div class="col-md-6">
                                <div class="img-cont">
                                 <img src="/demo_website_1/static/src/img/home/img-char-3.webp" alt="" />
@@ -294,7 +294,7 @@
                                  with our 1 click motion presets!</p>
                              </div>
                         </div>
-                        <div class="row justify-content-center align-items-center margin-top">
+                        <div class="row justify-content-center align-items-center margin-top upward">
                             <div class="col-md-6">
                                <div class="img-cont">
                                 <img src="/demo_website_1/static/src/img/home/img-char-5.webp" alt="" />
@@ -320,10 +320,10 @@
             
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-md-9">
-                                    <h2 class="text-center">Loaded with powerful editing options</h2>
+                                    <h2 class="text-center upward">Loaded with powerful editing options</h2>
                                 </div>
                         </div>
-                        <div class="row mt-5">
+                        <div class="row mt-5 upward">
                             <div class="col-md-7">
                                 <div class="box-poe box-gray">
                                     <h3>Compositions</h3>
@@ -343,7 +343,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-4">
+                        <div class="row mt-4 upward">
                             <div class="col-md-5">
                                 <div class="box-poe box-lightblue-g">
                                     <h3>Blend Modes Track Mattes</h3>
@@ -363,7 +363,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-4">
+                        <div class="row mt-4 upward">
                             <div class="col-md-7">
                                 <div class="box-poe box-gray">
                                     <h3>Compositions</h3>

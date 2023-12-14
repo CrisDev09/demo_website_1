@@ -6,6 +6,7 @@
             <link rel="stylesheet" href="/demo_website_1/static/src/css/owl.carousel.min.css"/>
             <link rel="stylesheet" href="/demo_website_1/static/src/css/custom.css"/>
             <link rel="stylesheet" href="/demo_website_1/static/src/css/video-js.min.css"/>
+            <link rel="stylesheet" href="/demo_website_1/static/src/css/aos.css"/>
         </xpath>
     </template>
 </odoo>

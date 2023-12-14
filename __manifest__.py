@@ -30,6 +30,7 @@
             "demo_website_1/static/src/js/owl.carousel.min.js",
             "demo_website_1/static/src/js/scrollIt.min.js",
             "demo_website_1/static/src/js/video.min.js",
+            "demo_website_1/static/src/js/aos.js",
             "demo_website_1/static/src/js/main.js",
         ]
     },
