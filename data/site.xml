@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <record model="website" id="site">
-            <field name="name">Demo Website</field>
+            <field name="name">Demo Website 1</field>
             <field name="default_lang_id" ref="base.lang_es" />
         </record>
     </data>

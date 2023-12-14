@@ -21,8 +21,8 @@
                             </div>
                             <div class="col-md-7">
                                 <div class="bg-cont-video">
-                                    <video id="wb-video" class="wb-video video-js vjs-16-9">
-                                        <source src="/demo_website/static/src/video/video-1.mp4" type="video/mp4" />
+                                    <video controls="controls" id="wb-video" class="wb-video video-js vjs-16-9">
+                                        <source src="/demo_website_1/static/src/video/video-1.mp4" type="video/mp4" />
                                     </video>
                                 </div>
                             </div>
@@ -47,10 +47,10 @@
                             <div class="row align-items-center justify-content-center mt-4">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video">
-                                            <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
-                                            </source>
+                                        <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                          <source src="/demo_website_1/static/src/video/video-2.mp4" type="video/mp4" />
                                         </video>
+
                                     </div>
                                     <div class="row align-items-center justify-content-center mt-2 cont-text">
                                         <h5>Character Creator</h5>
@@ -60,9 +60,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video">
-                                            <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
-                                            </source>
+                                         <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                          <source src="/demo_website_1/static/src/video/video-2.mp4" type="video/mp4" />
                                         </video>
                                     </div>
                                     <div class="row align-items-center justify-content-center mt-2 cont-text">
@@ -75,9 +74,8 @@
                             <div class="row align-items-center justify-content-center mt-5">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video">
-                                            <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
-                                            </source>
+                                         <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                          <source src="/demo_website_1/static/src/video/video-2.mp4" type="video/mp4" />
                                         </video>
                                     </div>
                                     <div class="row align-items-center justify-content-center mt-2 cont-text">
@@ -88,9 +86,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video">
-                                            <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
-                                            </source>
+                                         <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                          <source src="/demo_website_1/static/src/video/video-2.mp4" type="video/mp4" />
                                         </video>
                                     </div>
                                     <div class="row align-items-center justify-content-center mt-2 cont-text">
@@ -134,7 +131,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="img-cont">
-                                    <img src="/demo_website/static/src/img/home/img-amt.webp" alt="">
+                                    <img src="/demo_website_1/static/src/img/home/img-amt.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -155,7 +152,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="bxo-img">
-                                        <img src="/demo_website/static/src/img/home/img-man.webp" alt="">
+                                        <img src="/demo_website_1/static/src/img/home/img-man.webp" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -184,9 +181,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video">
-                                            <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
-                                            </source>
+                                         <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                          <source src="/demo_website_1/static/src/video/video-2.mp4" type="video/mp4" />
                                         </video>
                                     </div>
                                 </div>
@@ -196,9 +192,8 @@
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video">
-                                            <source src="/demo_website/static/src/video/video-1.mp4" type="video/mp4">
-                                            </source>
+                                         <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                          <source src="/demo_website_1/static/src/video/video-1.mp4" type="video/mp4" />
                                         </video>
                                     </div>
                                 </div>
@@ -226,9 +221,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video">
-                                            <source src="/demo_website/static/src/video/video-2.mp4" type="video/mp4">
-                                            </source>
+                                        <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                          <source src="/demo_website_1/static/src/video/video-2.mp4" type="video/mp4" />
                                         </video>
                                     </div>
                                 </div>
@@ -238,9 +232,8 @@
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-md-6">
                                     <div class="char-video">
-                                        <video class="wb-video">
-                                            <source src="/demo_website/static/src/video/video-1.mp4" type="video/mp4">
-                                            </source>
+                                       <video class="wb-video" autoplay="autoplay" muted="muted" loop="loop">
+                                          <source src="/demo_website_1/static/src/video/video-1.mp4" type="video/mp4" />
                                         </video>
                                     </div>
                                 </div>
@@ -268,7 +261,7 @@
                         <div class="row justify-content-center align-items-center margin-top">
                             <div class="col-md-6">
                                <div class="img-cont">
-                                <img src="/demo_website/static/src/img/home/img-char-1.webp" alt="">
+                                <img src="/demo_website_1/static/src/img/home/img-char-1.webp" alt="" />
                                </div>
                                <h4>Keyframes Presets</h4>
                                <p>Create custom keyframes or make it even easier 
@@ -276,7 +269,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="img-cont">
-                                    <img src="/demo_website/static/src/img/home/img-char-2.webp" alt="">
+                                    <img src="/demo_website_1/static/src/img/home/img-char-2.webp" alt="" />
                                 </div>
                                 <h4>Keyframes Presets</h4>
                                 <p>Create custom keyframes or make it even easier 
@@ -286,7 +279,7 @@
                         <div class="row justify-content-center align-items-center margin-top">
                             <div class="col-md-6">
                                <div class="img-cont">
-                                <img src="/demo_website/static/src/img/home/img-char-3.webp" alt="">
+                                <img src="/demo_website_1/static/src/img/home/img-char-3.webp" alt="" />
                                </div>
                                <h4>Keyframes  Presets</h4>
                                <p>Create custom keyframes or make it even easier 
@@ -294,7 +287,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="img-cont">
-                                    <img src="/demo_website/static/src/img/home/img-char-4.webp" alt="">
+                                    <img src="/demo_website_1/static/src/img/home/img-char-4.webp" alt="" />
                                 </div>
                                 <h4>Keyframes  Presets</h4>
                                 <p>Create custom keyframes or make it even easier 
@@ -304,7 +297,7 @@
                         <div class="row justify-content-center align-items-center margin-top">
                             <div class="col-md-6">
                                <div class="img-cont">
-                                <img src="/demo_website/static/src/img/home/img-char-5.webp" alt="">
+                                <img src="/demo_website_1/static/src/img/home/img-char-5.webp" alt="" />
                                </div>
                                <h4>Keyframes  Presets</h4>
                                <p>Create custom keyframes or make it even easier 
@@ -312,7 +305,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="img-cont">
-                                    <img src="/demo_website/static/src/img/home/img-char-6.webp" alt="">
+                                    <img src="/demo_website_1/static/src/img/home/img-char-6.webp" alt="" />
                                 </div>
                                 <h4>Keyframes Presets</h4>
                                 <p>Create custom keyframes or make it even easier 
@@ -336,7 +329,7 @@
                                     <h3>Compositions</h3>
                                     <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
                                     <div class="img-cont">
-                                        <img src="/demo_website/static/src/img/home/img-grid-1.webp" alt="">
+                                        <img src="/demo_website_1/static/src/img/home/img-grid-1.webp" alt="" />
                                        </div>
                                 </div>
                             </div>
@@ -345,7 +338,7 @@
                                     <h3>Blend Modes Track Mattes</h3>
                                     <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
                                     <div class="img-cont">
-                                        <img src="/demo_website/static/src/img/home/img-grid.webp" alt="">
+                                        <img src="/demo_website_1/static/src/img/home/img-grid.webp" alt="" />
                                        </div>
                                 </div>
                             </div>
@@ -356,7 +349,7 @@
                                     <h3>Blend Modes Track Mattes</h3>
                                     <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
                                     <div class="img-cont">
-                                        <img src="/demo_website/static/src/img/home/img-grid-3.webp" alt="">
+                                        <img src="/demo_website_1/static/src/img/home/img-grid-3.webp" alt="" />
                                        </div>
                                 </div>
                             </div>
@@ -365,7 +358,7 @@
                                     <h3>Compositions</h3>
                                     <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
                                     <div class="img-cont">
-                                        <img src="/demo_website/static/src/img/home/img-grid-4.webp" alt="">
+                                        <img src="/demo_website_1/static/src/img/home/img-grid-4.webp" alt="" />
                                        </div>
                                 </div>
                             </div>
@@ -376,16 +369,16 @@
                                     <h3>Compositions</h3>
                                     <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
                                     <div class="img-cont">
-                                        <img src="/demo_website/static/src/img/home/img-grid.webp" alt="">
+                                        <img src="/demo_website_1/static/src/img/home/img-grid.webp" alt="" />
                                        </div>
                                 </div>
                             </div>
                             <div class="col-md-5">
                                 <div class="box-poe box-orange">
-                                    <h3>Blend Modes & Track Mattes</h3>
+                                    <h3>Blend Modes Track Mattes</h3>
                                     <p>Group elements into scenes, and easily edit your compositions with our easy edit panel.</p>
                                     <div class="img-cont">
-                                        <img src="/demo_website/static/src/img/home/img-grid-5.webp" alt="">
+                                        <img src="/demo_website_1/static/src/img/home/img-grid-5.webp" alt="" />
                                        </div>
                                 </div>
                             </div>

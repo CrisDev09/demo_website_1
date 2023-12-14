@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <template id="layout" inherit_id="website.layout" website_id="demo_website.site" priority="20">
+    <template id="layout" inherit_id="website.layout" website_id="demo_website_1.site" priority="20">
         <xpath expr="//footer" position="before">
-            <link rel="stylesheet" href="/demo_website/static/src/css/style.css"/>
-            <link rel="stylesheet" href="/demo_website/static/src/css/owl.carousel.min.css"/>
-            <link rel="stylesheet" href="/demo_website/static/src/css/custom.css"/>
+            <link rel="stylesheet" href="/demo_website_1/static/src/css/style.css"/>
+            <link rel="stylesheet" href="/demo_website_1/static/src/css/owl.carousel.min.css"/>
+            <link rel="stylesheet" href="/demo_website_1/static/src/css/custom.css"/>
+            <link rel="stylesheet" href="/demo_website_1/static/src/css/video-js.min.css"/>
         </xpath>
     </template>
 </odoo>

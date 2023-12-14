@@ -346,6 +346,7 @@ ul {
 }
 .box-content .section-badge{
   display: flex;
+  width: auto;
 }
 
 .box-content .section-badge .badge-bg{
@@ -354,6 +355,7 @@ ul {
   border-radius: 43px;
   position: relative;
   overflow: hidden;
+  z-index: 100;
  }
 
 
@@ -364,11 +366,12 @@ ul {
   left: 50%;
   width: 20px;
   height: 400px;
-  background-color: rgb(48, 12, 81);
+  background-color: rgb(61, 16, 103);
   padding: 3px;
   border-radius: 43px;
-  background-image: linear-gradient(rgba(131, 57, 153, 0.404), #01010100);
-animation: rotate 4s linear infinite;
+  background-image: linear-gradient(rgba(142, 73, 163, 0.429), #01010100);
+  animation: rotate 4s linear infinite;
+  box-shadow: 0px -158px 95px 33px rgba(200,174,232,0.75);
 
 }
 
@@ -407,6 +410,7 @@ transform: rotate(1turn); /* Al final de la animación, el elemento se habrá ro
   color: var(--black-000);
   font-weight: 900;
   font-size: 2rem;
+  width: auto;
 }
 
 .cont-text p{
