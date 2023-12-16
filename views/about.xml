@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="about">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <h1>Pagina de about modificada</h1>
+            </div>
+        </t>
+    </template>
+</odoo>

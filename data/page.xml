@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <data>
-    <record model="website.page" id="home_page">
-      <field name="website_id" ref="demo_website_1.site" />
-      <field name="name">Inicio_demo</field>
-      <field name="url">/</field>
-      <field name="view_id" ref="demo_website_1.home" />
-      <field name="is_published" eval="True" />
-    </record>
-  </data>
+    <data>
+        <record model="website.page" id="home_page">
+            <field name="website_id" ref="demo_website_1.site" />
+            <field name="name">Inicio_demo</field>
+            <field name="url">/</field>
+            <field name="view_id" ref="demo_website_1.home" />
+            <field name="is_published" eval="True" />
+        </record>
+
+        <record model="website.page" id="about_page">
+            <field name="website_id" ref="demo_website_1.site" />
+            <field name="name">about</field>
+            <field name="url">/about</field>
+            <field name="view_id" ref="demo_website_1.about" />
+            <field name="is_published" eval="True" />
+        </record>
+    </data>
 </odoo>

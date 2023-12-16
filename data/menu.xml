@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="website.menu" id="top_menu">
+            <field name="website_id" ref="demo_website_1.site" />
+            <field name="name">Inicio</field>
+            <field name="url">/default-main-menu</field>
+            <field name="sequence">0</field>
+        </record>
+
+        <record id="menu_about_us" model="website.menu">
+            <field name="name">Acerca</field>
+            <field name="url">/about</field>
+            <field name="parent_id" ref="demo_website_1.top_menu" />
+            <field name="website_id" ref="demo_website_1.site" />
+            <field name="sequence">1</field>
+        </record>
+    </data>
+</odoo>

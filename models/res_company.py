@@ -1,6 +1,5 @@
-from odoo import fields, models, api
+from odoo import api, fields, models
 from odoo.exceptions import ValidationError
-
 
 class ResCompany(models.Model):
     _inherit = "res.company"
@@ -8,13 +7,20 @@ class ResCompany(models.Model):
     @api.model
     def ensure_lang_selector(self):
         sudo_self = self.sudo()
-        website = sudo_self.env.ref("demo_website.site")
-        order_views = ["website.header_call_to_action", "website.header_language_selector",
-                       "website.header_language_selector_flag"]
-        target_views = {"website.header_language_selector": {"state": False},
-                        "website.header_language_selector_flag": {"state": True,
-                                                                  "inherit": "website.header_language_selector"},
-                        "website.header_call_to_action": {"state": False}}
+        website = sudo_self.env.ref("demo_website_1.site")
+        order_views = [
+            "website.header_call_to_action",
+            "website.header_language_selector",
+            "website.header_language_selector_flag",
+        ]
+        target_views = {
+            "website.header_language_selector": {"state": False},
+            "website.header_language_selector_flag": {
+                "state": True,
+                "inherit": "website.header_language_selector",
+            },
+            "website.header_call_to_action": {"state": False},
+        }
         all_views = sudo_self.env["ir.ui.view"]
         for key in order_views:
             domain = [("key", "=", key), ("website_id", "=", website.id)]

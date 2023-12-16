@@ -19,10 +19,12 @@
         "data/function.xml",
         "data/sitemap.xml",
         "views/home.xml",
+        "views/about.xml",
         "views/footer.xml",
         "views/style.xml",
         "views/templates.xml",
         "data/page.xml",
+        "data/menu.xml",
     ],
     "assets": {
         "web.assets_frontend": [

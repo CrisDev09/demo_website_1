@@ -1,5 +1,5 @@
 <odoo>
     <data>
-       <!-- <function model="res.company" name="ensure_lang_selector"/>-->
+        <function model="res.company" name="ensure_lang_selector" />
     </data>
 </odoo>

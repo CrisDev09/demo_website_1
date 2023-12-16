@@ -1,10 +1,10 @@
 /*------------------------------------------------------
   Fonts
 -------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 Fixel Display Extra Bold
 /*------------------------------------------------------
-  Global css 
+  Global css
 -------------------------------------------------------*/
 .container,
 .container-fluid,
@@ -45,7 +45,7 @@ Fixel Display Extra Bold
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
   overflow-x: hidden;
@@ -252,7 +252,7 @@ ul {
 }
 
 .navbar .nav-item .nav-link::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -269,7 +269,7 @@ ul {
 }
 
 /*-----------------------------------------------------
-  hero 
+  hero
 -------------------------------------------------------*/
 .home {
   width: 100%;
@@ -295,14 +295,14 @@ ul {
 }
 
 .bg-cont-video {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .bg-cont-video video {
-    width: 100%;
-    height: 100%;
-    border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
 }
 
 .home-btn {
@@ -311,7 +311,7 @@ ul {
 
 /*---- video player style start-----*/
 .video-js {
- background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .video-js .vjs-big-play-button {
@@ -321,14 +321,14 @@ ul {
   border: none !important;
   background-color: var(--black-900) !important;
   display: flex;
-  transition: all .4s !important;
+  transition: all 0.4s !important;
 }
 
 .video-js .vjs-big-play-button:hover {
   transform: scale(1.1) !important;
 }
 
- .video-js :before {
+.video-js :before {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -347,30 +347,32 @@ ul {
 /*------------------------------------------------------
   secction 1
 -------------------------------------------------------*/
-.box-content{
+.box-content {
   width: 100%;
   background-color: var(--color-4);
-  background: radial-gradient(circle, rgba(66,19,111,1) 0%, rgba(32,3,59,1) 74%);
+  background: radial-gradient(
+    circle,
+    rgba(66, 19, 111, 1) 0%,
+    rgba(32, 3, 59, 1) 74%
+  );
   border-radius: 25px;
   padding: 100px 40px;
-
 }
-.box-content .section-badge{
+.box-content .section-badge {
   display: flex;
   width: auto;
 }
 
-.box-content .section-badge .badge-bg{
+.box-content .section-badge .badge-bg {
   background-color: rgb(48, 12, 81);
   padding: 3px;
   border-radius: 43px;
   position: relative;
   overflow: hidden;
   z-index: 100;
- }
+}
 
-
-.box-content .section-badge .badge-bg::after{
+.box-content .section-badge .badge-bg::after {
   position: absolute;
   content: '';
   top: -250%;
@@ -382,17 +384,18 @@ ul {
   border-radius: 43px;
   background-image: linear-gradient(rgba(142, 73, 163, 0.429), #01010100);
   animation: rotate 4s linear infinite;
-  box-shadow: 0px -158px 95px 33px rgba(200,174,232,0.75);
-
+  box-shadow: 0px -158px 95px 33px rgba(200, 174, 232, 0.75);
 }
 
 @keyframes rotate {
-100% {
-transform: rotate(1turn); /* Al final de la animación, el elemento se habrá rotado 360 grados */
-}
+  100% {
+    transform: rotate(
+      1turn
+    ); /* Al final de la animación, el elemento se habrá rotado 360 grados */
+  }
 }
 
-.box-content .section-badge .badge-wb{
+.box-content .section-badge .badge-wb {
   position: relative;
   background-color: var(--color-4);
   box-shadow: var(--shadow-purpure-300);
@@ -408,23 +411,23 @@ transform: rotate(1turn); /* Al final de la animación, el elemento se habrá ro
   z-index: 1100;
 }
 
-.char-video{
+.char-video {
   width: 100% !important;
 }
 
-.char-video video{
+.char-video video {
   width: 100% !important;
   border-radius: 25px;
 }
 
-.cont-text h5{
+.cont-text h5 {
   color: var(--black-000);
   font-weight: 900;
   font-size: 2rem;
   width: auto;
 }
 
-.cont-text p{
+.cont-text p {
   color: var(--black-000);
   font-weight: 500;
   font-size: 1rem;
@@ -432,25 +435,29 @@ transform: rotate(1turn); /* Al final de la animación, el elemento se habrá ro
   padding: 0 10%;
 }
 
-.box-content .ft-box-content{
+.box-content .ft-box-content {
   background-color: #2f0e4f;
   border-radius: 25px;
   padding: 20px 100px;
 }
 
-.box-content .ft-box-content .ft-text h5{
+.box-content .ft-box-content .ft-text h5 {
   color: var(--black-000);
   font-weight: 900;
   font-size: 1.5rem;
 }
-.box-content .ft-box-content .ft-text p{
+.box-content .ft-box-content .ft-text p {
   color: var(--black-000);
   font-weight: 500;
   font-size: 1rem;
 }
 
-.box-content .ft-box-content .section-btn .btn-ft{
-  background: linear-gradient(90deg, rgba(0,178,255,1) 0%, rgba(116,14,214,1) 66%);
+.box-content .ft-box-content .section-btn .btn-ft {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 178, 255, 1) 0%,
+    rgba(116, 14, 214, 1) 66%
+  );
   padding: 5px 20px;
   border: none;
   border-radius: 10px;
@@ -461,86 +468,86 @@ transform: rotate(1turn); /* Al final de la animación, el elemento se habrá ro
   font-weight: 900;
 }
 
-
-
 /*-------------------------------------------
 ---------------------------------------------*/
 
-.anitmate{
+.anitmate {
   background-color: var(--color-1);
 }
-.anitmate .am-text h2{
+.anitmate .am-text h2 {
   font-size: 2rem;
   font-weight: 900;
   color: var(--black-000);
 }
 
-.anitmate .am-text p{
+.anitmate .am-text p {
   color: var(--black-000);
 }
 
 /*-----------------------------------------
 -------------------------------------------*/
-.bx-org{
+.bx-org {
   position: relative;
 }
-.box-orange{
-  background: linear-gradient(90deg, rgba(254,135,4,1) 59%, rgba(175,71,0,1) 100%);
+.box-orange {
+  background: linear-gradient(
+    90deg,
+    rgba(254, 135, 4, 1) 59%,
+    rgba(175, 71, 0, 1) 100%
+  );
   border-radius: 25px;
   padding: 50px 30px;
 }
 
-.box-orange .bxo-text h2{
+.box-orange .bxo-text h2 {
   color: var(--black-000);
   font-weight: 900;
 }
 
-.box-orange .bxo-img{
-  position: absolute;
+.box-orange .bxo-img {
+  position: relative;
   bottom: -114px;
   right: 0;
+  width: 100px;
 }
-
 
 /*--------------------------------------------------------
 ---------------------------------------------------------*/
-.section-esasy h2{
+.section-esasy h2 {
   font-size: 2.5rem;
   font-weight: 900;
 }
-.section-esasy .stn-esy{
+.section-esasy .stn-esy {
   padding-top: 100px;
 }
-.section-esasy .stn-esy h3{
+.section-esasy .stn-esy h3 {
   font-size: 2.5rem;
   font-weight: 700;
 }
-.section-esasy .stn-esy p{
+.section-esasy .stn-esy p {
   font-size: 1.3rem;
   padding: 20px 0;
 }
 
-
-
 /*-----------------------------------------------------
 --------------------------------------------------------*/
-.section-bg-black{
+.section-bg-black {
   background-color: var(--black-900);
 }
-.section-bg-black h2{
+.section-bg-black h2 {
   font-size: 3rem;
   font-weight: 700;
   color: var(--black-000);
 }
 
-.section-bg-black h4{
+.section-bg-black h4 {
   font-size: 2rem;
   font-weight: 700;
   color: var(--black-000);
   text-align: center;
   margin-top: 50px;
 }
-.section-bg-black p{
+.section-bg-black p {
   font-size: 1rem;
   font-weight: 700;
   color: var(--black-000);
@@ -548,49 +555,54 @@ transform: rotate(1turn); /* Al final de la animación, el elemento se habrá ro
   margin-top: 30px;
 }
 
-.section-bg-black .margin-top{
+.section-bg-black .margin-top {
   margin-top: 100px;
 }
 
-.img-cont{
+.img-cont {
   border-radius: 25px;
   overflow: hidden;
 }
 
 /*--------------------------------------------------
 ---------------------------------------------------*/
-.section-poe .box-poe{
+.section-poe .box-poe {
   border-radius: 25px;
   padding: 50px 30px;
   height: 100% !important;
 }
-.section-poe .box-poe h3{
+
+.section-poe .box-poe h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.section-poe .box-poe h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
-.section-poe .box-poe p{
+.section-poe .box-poe p {
   font-size: 1rem;
   margin: 30px 0;
 }
 
-.section-poe .box-gray{
+.section-poe .box-gray {
   background-color: var(--black-100);
 }
-.section-poe .box-lightblue{
+.section-poe .box-lightblue {
   background-color: var(--color-1);
   color: var(--black-000);
 }
 
-.section-poe .box-purple{
+.section-poe .box-purple {
   color: var(--black-000);
-  background: linear-gradient(164deg,#BF00FE 0%,#6800FF 100%);
-} 
-.section-poe .box-lightblue-g{
+  background: linear-gradient(164deg, #bf00fe 0%, #6800ff 100%);
+}
+.section-poe .box-lightblue-g {
   color: var(--black-000);
-  background: linear-gradient(140deg,#00C7EB 0%,#22FFD5 100%);
+  background: linear-gradient(140deg, #00c7eb 0%, #22ffd5 100%);
 }
 
-.section-poe .box-orange{
+.section-poe .box-orange {
   color: var(--black-000);
-  background: linear-gradient(140deg,#FF9D2B 0%,#F78B0E 100%);
+  background: linear-gradient(140deg, #ff9d2b 0%, #f78b0e 100%);
 }
